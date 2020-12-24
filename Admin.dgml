@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph ZoomLevel="0.75" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="09f87096-25d6-4132-8893-9dbd1507b2551" Category="Comment" Bounds="-13.8017610677085,135.012033324887,239.826666666667,73.84" Label="Tienen control total, asignan roles. Deben cumplir un rol inferior especifico pero siempre en buena fe al proyecto dirigen con poder absoluto" UseManualLocation="True" />
+    <Node Id="16179f89-49d8-4d06-9549-8064b4a657e91" Category="Comment" Bounds="-447.091063842773,696.765201360978,240.97,41.9200000000001" Label=" Modera disputas y aplica sanciones entre todos los programadores. " UseManualLocation="True" />
+    <Node Id="21fee928-0374-4813-bc2b-997ca7e165fc1" Category="Comment" Bounds="-606.367507770725,282.772133324687,244.566666666667,89.8" Label="Encargado de gestionar las relaciones de los grupos, tanto en chats como en disputas. &#xD;&#xA;Se encarga de solicitar o aplicar sanciones, dependiendo de su nivel en el rol." UseManualLocation="True" />
+    <Node Id="7e98913a-dd1c-48c1-9676-e83ccbb69ab11" Category="Comment" Bounds="-275.231853931845,121.052133324687,231.43,89.8" Label="Se encarga de reclutar y de analizar los perfies para solicitar la asignacion en un nivel o rol&#xD;&#xA;&#xD;&#xA;No lo asigna oficialmente" UseManualLocation="True" />
+    <Node Id="8a1d27f4-a52b-4697-9681-170dcc35f58e1" Category="Comment" Bounds="-495.835644579954,819.605295257463,248.513333333333,89.8000000000002" Label="Modera los comentarios de los codigos, salas de chat, pero principalmente se encarga de supervisar las reglas de codigo y acciones de cada usuario, comunicando a sus superiores para las sanciones." UseManualLocation="True" />
+    <Node Id="AdministradorGeneral" Bounds="-10.8898689253994,238.852133324687,227.246666666667,25.96" Label="Creadores - Administradores Generales" UseManualLocation="True" />
+    <Node Id="AdministradoresDeRecursos" Bounds="-198.397291720373,296.812133324687,170.916666666667,25.96" Label="Administradores de recursos" UseManualLocation="True" />
+    <Node Id="Moderador" Bounds="-178.367248151679,390.572133324687,99.7,25" Group="Collapsed" UseManualLocation="True" />
+    <Node Id="ModeradorConductual" Bounds="6.64057230631511,794.755138479723,143.506666666667,25.96" Label="Moderador Conductual" UseManualLocation="True" />
+    <Node Id="ModeradorDeProgramacion" Bounds="-184.299412434896,795.445201956286,143.386666666667,25.96" Label="Moderador de arbitraje" UseManualLocation="True" />
+    <Node Id="ModeradorDeProgramacion1" Bounds="-202.576337305705,877.205425344958,173.933333333333,25.96" Label="Moderador de programacion" UseManualLocation="True" />
+    <Node Id="ModeradorMaestro" Bounds="-175.861081008911,704.7451708434,126.51,25.96" Label="Moderador Maestro" UseManualLocation="True" />
+    <Node Id="Programadores" Bounds="249.307661641439,293.229777704726,101.353333333333,25.96" UseManualLocation="True" />
+    <Node Id="adb8e5d3-746b-4f50-b659-585e4b34a8231" Category="Comment" Bounds="497.277901407878,334.440930477409,249.243333333333,409" Label="Reglas de programadores&#xD;&#xA;&#xD;&#xA;1) En la jerarquia de programacion tiene prioridad el perfil de conocimientos ( segun el nivel de puede acceder a la jerarquia en vertical ) &#xD;&#xA;&#xD;&#xA;2) Cualquier Programador en su nodo jerarquico manda a todos por debajo y este toma responsabilidad por las acciones inferiores. Cualquiera sea el nivel del perfil debe responder al programador encargado del nodo superior de relevancia directa&#xD;&#xA;&#xD;&#xA;3) Cualquier programador que demuestre conocimientos horizontales suficientes puede obtener el reconocimiento y alcanzar el nodo inmediatamente superior. Puede quedar en calidad de co-responsable o en caso de refactoring es responsable inmediato pero no autor de algoritmo.&#xD;&#xA;&#xD;&#xA;Cualquier disputa sobre las reglas se median con el moderador" UseManualLocation="True" />
+    <Node Id="d1307792-921a-4f1c-bd9c-5b5b2f669ba71" Category="Comment" Bounds="-234.667738138835,473.314922512926,244.123333333333,169.6" Label="Sobre cualquiera, puede moderar disputas hasta con los creadores sin pertenecer a estos&#xD;&#xA; &#xD;&#xA;De igual forma aplica sanciones de acuerdo a codigo de conducta o convivencia (por sentido comun). &#xD;&#xA;Solo puede aplazar el mando de los creadores, no pudiendo tomar control absoluto." UseManualLocation="True" />
+    <Node Id="f7201255-38b9-4199-a3ff-ffaddd58b6be1" Category="Comment" Bounds="-13.3760600280761,672.915022512926,247.54,73.8400000000001" Label="Se encarga de moderar los comentarios de los codigos, las conversaciones y de aplicar sanciones menores para preservar la convivencia" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="09f87096-25d6-4132-8893-9dbd1507b2551" Target="AdministradorGeneral" Bounds="103.662420367144,208.852033324887,0.888205890825503,21.0081330990656" />
+    <Link Source="16179f89-49d8-4d06-9549-8064b4a657e91" Target="ModeradorDeProgramacion" Bounds="-277.152491077876,738.685189208984,125.634601445194,53.2479475003756" />
+    <Link Source="21fee928-0374-4813-bc2b-997ca7e165fc1" Target="Moderador" Bounds="-361.800834147135,353.603014637984,175.540534665159,37.2243743880339" />
+    <Link Source="7e98913a-dd1c-48c1-9676-e83ccbb69ab11" Target="AdministradoresDeRecursos" Bounds="-144.97745692933,210.852129364014,25.0627339190318,77.3977221103848" />
+    <Link Source="8a1d27f4-a52b-4697-9681-170dcc35f58e1" Target="ModeradorDeProgramacion1" Bounds="-247.322305196126,876.971342079986,35.7909218887209,3.5907278262107" />
+    <Link Source="AdministradorGeneral" Target="AdministradoresDeRecursos" Bounds="-55.948033800696,264.812133324687,110.38218460295,29.6642053310215" />
+    <Link Source="AdministradoresDeRecursos" Target="Moderador" Bounds="-124.947158135313,322.772129516602,9.84046712902392,58.9229470011677" />
+    <Link Source="Moderador" Target="16179f89-49d8-4d06-9549-8064b4a657e91" Category="Contains" />
+    <Link Source="Moderador" Target="8a1d27f4-a52b-4697-9681-170dcc35f58e1" Category="Contains" />
+    <Link Source="Moderador" Target="ModeradorConductual" Category="Contains" />
+    <Link Source="Moderador" Target="ModeradorDeProgramacion" Category="Contains" />
+    <Link Source="Moderador" Target="ModeradorDeProgramacion1" Category="Contains" />
+    <Link Source="Moderador" Target="ModeradorMaestro" Category="Contains" />
+    <Link Source="Moderador" Target="d1307792-921a-4f1c-bd9c-5b5b2f669ba71" Category="Contains" />
+    <Link Source="Moderador" Target="f7201255-38b9-4199-a3ff-ffaddd58b6be1" Category="Contains" />
+    <Link Source="ModeradorConductual" Target="ModeradorDeProgramacion1" Bounds="-76.7850439678599,820.715168457031,124.637318172244,52.9700711405926" />
+    <Link Source="ModeradorDeProgramacion" Target="ModeradorDeProgramacion1" Bounds="-114.802423341976,821.405201956286,1.71950334467516,46.8062903441154" />
+    <Link Source="ModeradorMaestro" Target="ModeradorConductual" Bounds="-85.0626943132831,730.705158691406,127.771940210359,60.2133531148462" />
+    <Link Source="ModeradorMaestro" Target="ModeradorDeProgramacion" Bounds="-112.606082370342,730.705158691406,2.3443361385489E-06,55.7400432648794" />
+    <Link Source="d1307792-921a-4f1c-bd9c-5b5b2f669ba71" Target="ModeradorMaestro" Bounds="-112.606081340289,642.914922512926,3.78794049993303E-06,52.8302361784799" />
+    <Link Source="f7201255-38b9-4199-a3ff-ffaddd58b6be1" Target="ModeradorConductual" Bounds="85.4327957715727,746.755022512926,12.8933212373192,39.4455090648946" />
+  </Links>
+  <Categories>
+    <Category Id="Comment" Label="Comentario" Description="Representa un comentario definido por el usuario en el diagrama" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comentarios" />
+    <Category Id="Contains" Label="Contiene" Description="Indica si el origen del vínculo contiene el objeto de destino." CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contenido por" IsContainment="True" OutgoingActionLabel="Contiene" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="Grupo" Description="Muestra el nodo como grupo" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Etiqueta" Description="Etiqueta Displayable de un objeto Annotatable." DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Comentario" ValueLabel="Tiene comentario">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>
